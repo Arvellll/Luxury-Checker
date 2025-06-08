@@ -1,0 +1,537 @@
+@use "../../global/shared" as shared;
+
+.cek{
+    display: flex;
+    width: 100%;
+    padding: 100px 70px;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    background-image: url(/public/assets/images/mengapa-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .old-container{
+        .container{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: var(--Base-Black, #020202);
+        text-align: center;
+
+        img{
+            display: none;
+        }
+    h1{
+        padding-bottom: 20px;
+         /* Text/H1/Bold */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    }
+    span{
+        color: var(--Base-Brown, #564105);
+
+/* Text/H1/Bold */
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+    }
+     
+       
+    .inner-cont{
+        display: flex;
+        align-items: center;
+        gap: 50px;
+
+        .inner1{      
+            display: flex;
+            flex-direction: column;
+            gap: 120px;
+        }
+        .inner3{      
+            display: flex;
+            flex-direction: column;
+            gap: 120px;
+        }
+    }
+    }
+}
+
+@media(max-width: shared.$mobile-bkp){
+    .cek{
+        display: flex;
+        
+        .old-container{
+            display: flex;
+            flex-direction: column;
+            gap: 39px;
+            .inner-cont{
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+
+            .inner2 
+                img{
+                    display: none;
+                }
+
+                .inner1{
+                    gap: 10px;
+                }
+                .inner3{
+                    gap: 10px;
+                }
+        }
+        .container{
+            flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+            img{
+            display: block;
+             }
+
+             h1{
+                margin-bottom: 39px;
+             }
+            }
+
+        }
+        
+    }
+
+}
+
+
+.about{
+    display: flex;
+    // flex-direction: column;
+    height: 561px;
+    padding: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/public/assets/images/about-bg.png);  
+    background-size: cover;
+    justify-content: space-between;
+.container{
+    display: flex;
+    align-items: center;
+
+.about-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+        h1{
+            align-self: stretch;
+            text-align: center;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            background: var(--Gold-200, linear-gradient(161deg, #B1840F 25.85%, #C7AB26 37.53%, #E8D85F 46.2%, #FFCA0D 57.12%, #E8D861 66.92%, #E7C239 75.96%, #8A4E00 98.19%));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p{
+            
+            color: var(--Neutral-200, #E1DCDC);
+            text-align: center;
+            font-family: shared.$nunito;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px; /* 125% */
+           align-items: center;
+           
+           
+        }
+
+        button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 40px;
+            background: var(--Gold-300, linear-gradient(196deg, #D5AF4A -0.4%, #F2E983 45.62%, #F2E983 72.56%, #D5B14B 97.97%));
+            box-shadow: 0px 1px 4px 0px #B5983B inset;
+            color: var(--Base-Black, #020202);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 22px; /* 137.5% */
+            width: 224px;
+        }
+    }
+    .box-left{
+        margin-bottom:200px;
+       img{ width: 205.062px; height: 205.062px;
+       }
+}
+    .box-right{
+        margin-top:200px;
+        img{
+            border-radius: 35px;
+            -webkit-border-radius: 35px;
+            -moz-border-radius: 35px;
+            -ms-border-radius: 35px;
+            -o-border-radius: 35px;
+            width: 235.062px; height: 235.062px;
+}
+}
+}
+
+
+// }
+
+@media (max-width: shared.$mobile-bkp) {
+   .about{
+    background-image: url(/public/assets/images/bg-mobile-about.png);
+    background-size: cover;
+    height: 721px;
+    .container{
+        display: flex;
+        
+        width: 100%;
+        .box-left{
+            display: flex;
+            padding: 0;
+            margin: 0;
+            margin-bottom: 500px;
+          
+        img{
+            width: 100px;
+            height: 100px;
+        }
+                } 
+        .box-right{
+            display: flex;
+            justify-content: end;
+            padding: 0;
+            margin: 0;
+            margin-top: 500px;
+
+        img{
+            width: 100px;
+            height: 100px;
+            border-radius: 15px;
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 15px;
+            -ms-border-radius: 15px;
+            -o-border-radius: 15px;
+            }
+                }
+        
+    .about-inner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 33px;
+
+        h1{
+            text-align: center;
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 700px;
+            line-height: normal;
+            background: var(--Gold-200, linear-gradient(161deg, #B1840F 25.85%, #C7AB26 37.53%, #E8D85F 46.2%, #FFCA0D 57.12%, #E8D861 66.92%, #E7C239 75.96%, #8A4E00 98.19%));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        p{
+            color: var(--Neutral-200, #E1DCDC);
+            text-align: center;
+            font-size: 19px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+        }
+        
+    }
+
+        }    
+  
+}
+}
+.cara-kerja{
+    .container-mobile{
+        display: none;
+    }
+
+    background-image: url(/public/assets/images/cara-kerja-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+        
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        
+    .title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 50px;
+
+        h1{
+            color: var(--Neutral-400, #2B2A2A);
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        span{
+            color: var(--Base-Brown, #564105);
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+
+    .wrapper{   
+        display: flex;
+        justify-content: space-between; 
+        .inner-wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            position: relative;
+            text-align: left;
+        
+            
+            span{
+                color: var(--Base-Brown, #564105);
+                font-family: shared.$outfit;
+                font-size: 70px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                position : absolute;
+                top: 0;
+                left: 0;
+            }
+            h2{
+                color: var(--Base-Black, #020202);
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+
+            p{
+                width: 566.5px;
+            }
+        }
+    //     
+    .wrapper-right{
+        margin-top: 250px;
+        
+
+            }      
+         }
+    }
+
+}
+
+@media (max-width: shared.$mobile-bkp){
+    .cara-kerja{
+        .container-mobile {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        
+        .wrapper-mobile {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 400px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .inner-wrapper-mobile {
+        
+        span {
+            font-size: 32px;
+            font-weight: bold;
+            color: #564105; 
+            position: absolute;
+        }
+        
+         img {
+            width: 316px;
+            height: 257px;
+            object-fit: contain;
+        }
+        
+         h2 {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 10px;
+            text-align: left;
+        }
+        
+         p {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.5;
+            margin-top: 5px;
+            text-align: left;
+        }
+    }
+        
+    .container{
+        .wrapper{
+        display: none;
+         }
+}
+
+    }
+}
+            
+.penilaian{
+
+    background-image: url(/public/assets/images/testimoni-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 120px;
+
+        h1{
+            color: var(--Base-Black, #020202);  
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+
+            span{
+                color: var(--Base-Brown, #564105);
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        }
+
+    }
+    
+    .tombol-testi{
+        display: flex;
+        justify-content: center;
+        margin-top: 61.5px;
+        margin-bottom: 61.5px;
+        a{
+            text-decoration: none;
+            color: var(--Base-White, #FFF);
+
+
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 125% */
+      
+        display: flex;
+        padding: 24px 46px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 50px;
+        background: var(--Neutral-400, #2B2A2A);
+        margin-top: 40px;
+        width: 360px;
+
+    }
+}     
+    
+    .testimoni-item-wrapper{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        flex-wrap: wrap;
+        margin-top: 71px;
+
+        img{
+            display: flex;
+            width: 377px;
+            flex-direction: column;
+            object-fit: contain;
+        }
+
+        .testimoni-item{
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            img{
+                object-fit: contain;
+    
+            }
+            }
+        }
+    }
+
+    @media (max-width:shared.$mobile-bkp){
+        .penilaian{
+            background-image: none;
+            .container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                
+            }
+
+            .title{
+                p{
+                    font-size: 27px;
+                    margin-top: 20px;
+                }
+            }
+            
+            .testimoni-item-wrapper{
+                display: flex;
+                align-items: center;
+                img{
+                    width: 235px;
+                }
+            }
+
+            .testi-hilang{
+                display: none;
+            }
+
+            .tombol-testi{
+                margin-top: 20px;
+                margin-bottom: 150px;
+            }
+        }
+
+    }
+    
+    @media(max-width: shared.$mobile-bkp){
+        .container .wrapper {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            
+        }
+}

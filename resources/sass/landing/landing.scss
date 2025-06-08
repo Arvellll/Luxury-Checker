@@ -1,0 +1,18 @@
+//base
+@use "./utilities/base";
+
+//component
+@use './component/hero';
+@use './component/faq';
+@use './component/title';
+@use './component/case-card';
+@use './component/contact';
+
+//page
+@use './pages/homepage';
+// @use './pages/education';
+//layouts
+@use './layouts/navbar';
+@use './layouts/footer';
+
+

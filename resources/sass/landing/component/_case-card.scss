@@ -1,0 +1,21 @@
+@use "../../global/shared" as shared;
+
+.case-card-item{
+    display: flex;
+padding: 20px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 15px;
+align-self: stretch;
+border-radius: 15px;
+border: 1px solid var(--Neutral-200, #E1DCDC);
+background: var(--Neutral-100, #F9F5F5);
+width: 100%;
+
+h2{
+    font-size: 24px;
+    display: flex;
+    gap: 20px;
+}
+}
