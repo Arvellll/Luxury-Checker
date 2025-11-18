@@ -11,7 +11,7 @@
                     <div class="accordion-item">
                       <h2 class="accordion-header" >
                         <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne" id="flush-headingOne">
-                            Apa itu Luxury Checker?
+                            Apa itu Check Barang Mewah?
                         </button>
                       </h2>
                       <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-parent="#accordionFlushExample">

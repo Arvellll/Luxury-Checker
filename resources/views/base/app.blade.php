@@ -6,8 +6,8 @@
     <meta name="color-scheme" content="light dark">
     {{-- <link rel="icon" type="image/x-icon" href="{{ asset("./assets/images/favicon.png") }}"> --}}
 
-    <title>Luxury Checker - @yield('title')</title>
-    <link rel="icon" type="image/jpg" href="{{asset('assets/images/logo.png')}}"/>
+    <title>Check Barang Mewah - @yield('title')</title>
+    <link rel="icon" type="image/jpg" href="{{asset('assets/images/log.png')}}"/>
 
     {{-- Font Awesome --}}
     <script src="https://kit-pro.fontawesome.com/releases/v5.15.3/js/pro.min.js" data-auto-fetch-svg></script>

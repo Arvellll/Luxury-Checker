@@ -6,7 +6,7 @@
 @include('landing.component.hero', [
     'image' => asset('assets/images/hero-image.png'),
     'title1' => 'Cek Keaslian Barang dengan',
-    'span' => 'Luxury Checker',
+    'span' => 'Check Barang Mewah',
     'title2' => '',
     'span2' => '',
     'subTitle' => "Analisis barang mewah dan koleksi kesayangan Anda. Keahlian kami lebihdari 49 merek ternama",
@@ -58,7 +58,7 @@
             <img src="{{asset('assets/images/box-left.png')}}" alt="">
         </div>
         <div class="about-inner">
-            <h1>Tentang Luxury Checker</h1>
+            <h1>Tentang Check Barang Mewah</h1>
             <p>Pellentesque consectetur augue ligula, in tincidunt lacus fermentum. Conse quam quis ipsum ultrices placerat. Curabitur ut tincidunt turpis. Nunc suscipit mi aliquet felis efficitur, vitae viverra.</p> <button class="button" href ="">Selengkapnya
             </button>
         </div>
